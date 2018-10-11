@@ -1,1 +1,1 @@
-# Cat translator
+# Identifying flags

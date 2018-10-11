@@ -1,1 +1,1 @@
-# Cat translator
+# Training data

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href="css/styles.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div id='intro_div'>
+<h1>Smart farm: water consumption</h1>
+<p>This web page demonstrates how you could track farm animal water consumption by using an AI model that has been trained to identify individual animals in images:</p>
+<ul class='animal_list'>
+<li><p>Bello</p><img src='bello.png'/></li>
+<li><p>Donkey</p><img src='donkey.png'/></li>
+<li><p>Pony</p><img src='pony.png'/></li>
+<li><p>Shorty</p><img src='shorty.png'/></li>
+</ul>
+</div>
+
+<div class='images_div'>
+<h3>Image 1: Donkey, day</h3>
+<img id='image1_image' src='image1.JPG'/><br/>
+<button id='image1'>Identify animal</button>
+<h3>Image 2: Pony, day</h3>
+<img id='image2_image' src='image2.JPG'/><br/>
+<button id='image2'>Identify animal</button>
+<h3>Image 3: Bello, night</h3>
+<img id='image3_image' src='image3.JPG'/><br/>
+<button id='image3'>Identify animal</button>
+<h3>Image 4: Shorty, night</h3>
+<img id='image4_image' src='image4.JPG'/><br/>
+<button id='image4'>Identify animal</button>
+</div>
+
+<div class='results_div'>
+<h3>Results from model</h3>
+<div id='results_json_div'>
+<div id='results_spinner'      style='display: none;' class='spinner'></div>
+<pre id='returned_results_div' style='display: none;'></pre>
+
+</div>
+</div>
+
+<script>
+$( "button" ).click( function()
+{
+    image_id = this.id;
+    document.getElementById( 'returned_results_div' ).style.display = 'none';
+    document.getElementById( 'results_spinner'      ).style.display = 'block';
+    $.ajax( { method: "GET",
+              url: "./idanimal?image_id=" + image_id,
+              contentType : "application/json",
+              success     : function( result )
+                            {
+                                document.getElementById( 'results_spinner' ).style.display = 'none';
+                                document.getElementById( 'returned_results_div' ).innerHTML = "Top class:\n" + JSON.stringify( result.top_class, null, 3 ) + "\n\n" + "Result details:\n" + JSON.stringify( result.results, null, 3 );
+                                document.getElementById( 'returned_results_div' ).style.display = 'block';
+                            }
+            } );
+} );
+</script>
+
+</body>
+
+</html>
+

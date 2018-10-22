@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href="css/styles.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<audio id='drone_take_off' style='display: none;'><source src='launch-drone.wav'   type='audio/wav'></audio>
+
+<div id='intro_div'>
+<h1>Search and rescue</h1>
+<p>This web page demonstrates how you could identify objects of interest in drone video footage by using an AI model that has been trained to classify images of objects into one of several classes, including: Blocks, Car, Horse, and Wheelbarrow.</p>
+</div>
+
+<div class='video_div'>
+<h3>Video 1: Blocks</h3>
+<video id='video1_video' width="320" height="240"><source src="video1.mp4" type="video/mp4"></video>
+<p>Play the video and identify the object:</p>
+<button id='video1'>Play & Classify</button>
+</div>
+
+<div class='video_div'>
+<h3>Video 2: Horse</h3>
+<video id='video2_video' width="320" height="240"><source src="video2.mp4" type="video/mp4"></video>
+<p>Play the video and identify the object:</p>
+<button id='video2'>Play & Translate</button>
+</div>
+
+<div class='results_div'>
+<h3>Closeup</h3>
+<div id='closeup_result'>
+<div id='closeup_spinner' style='display: none;' class='spinner'></div>
+<img id='closeup_img' src='' />
+</div>
+<h3>Results from model</h3>
+<div id='results_json_div'>
+<div id='results_spinner'      style='display: none;' class='spinner'></div>
+<pre id='returned_results_div' style='display: none;'></pre>
+</div>
+</div>
+
+<script>
+$( "button" ).click( function()
+{
+    vid_id = this.id;
+    document.getElementById( 'drone_take_off' ).play();
+    document.getElementById( vid_id + '_video' ).play();
+    setTimeout( function()
+    {
+        document.getElementById( 'returned_results_div' ).style.display = 'none';
+        document.getElementById( 'results_spinner'      ).style.display = 'block';
+        document.getElementById( 'closeup_img'          ).style.display = 'none';
+        document.getElementById( 'closeup_spinner'      ).style.display = 'block';
+        $.ajax( { method: "GET",
+                  url: "./idobject?vid_id=" + vid_id,
+                  contentType : "application/json",
+                  success     : function( result )
+                                {
+                                    document.getElementById( 'closeup_spinner' ).style.display = 'none';
+                                    document.getElementById( 'closeup_img'     ).style.display = 'block';
+                                    document.getElementById( 'closeup_img'     ).src = vid_id + '_frame_closeup.png';
+                                    document.getElementById( 'results_spinner' ).style.display = 'none';
+                                    document.getElementById( 'returned_results_div' ).innerHTML = "Top class:\n" + JSON.stringify( result.top_class, null, 3 ) + "\n\n" + "Result details:\n" + JSON.stringify( result.results, null, 3 );
+                                    document.getElementById( 'returned_results_div' ).style.display = 'block';
+                                }
+                } );
+    }, 2000 );
+} );
+</script>
+
+</body>
+
+</html>
+

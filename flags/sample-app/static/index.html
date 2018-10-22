@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href="css/styles.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<audio id='Canada_anthem' style='display: none;'><source src='oh-canada.wav'            type='audio/wav'></audio>
+<audio id='USA_anthem'    style='display: none;'><source src='star-spangled-banner.wav' type='audio/wav'></audio>
+
+<div id='intro_div'>
+<h1>Flags</h1>
+<p>This web page demonstrates how you could implement an app that recognizes the flags of countries by using an AI model that has been trained to classify images of flags:</p>
+<ul>
+<li><p>Canadian flag</p></li>
+<li><p>Flag of the United States of America</p></li>
+</ul>
+</div>
+
+<div class='images_div'>
+<ul class='flags_list'>
+<li>
+<h3>Flag 1: Canadian flag</h3>
+<img id='flag1_image' src='flag1.jpg'/><br/>
+<button id='flag1'>Recognize</button>
+</li>
+<li style='margin-right: 10px;'>
+<h3>Flag 2: American flag</h3>
+<img id='flag2_image' src='flag2.jpg'/><br/>
+<button id='flag2'>Recognize</button>
+</li>
+</ul>
+</div>
+
+<div class='results_div'>
+<h3>Results from model</h3>
+<div id='results_json_div'>
+<div id='results_spinner'      style='display: none;' class='spinner'></div>
+<pre id='returned_results_div' style='display: none;'></pre>
+
+</div>
+</div>
+
+<script>
+$( "button" ).click( function()
+{
+    flag_id = this.id;
+    document.getElementById( 'returned_results_div' ).style.display = 'none';
+    document.getElementById( 'results_spinner'      ).style.display = 'block';
+    $.ajax( { method: "GET",
+              url: "./recognize?flag_id=" + flag_id,
+              contentType : "application/json",
+              success     : function( result )
+                            {
+                                document.getElementById( 'results_spinner' ).style.display = 'none';
+                                document.getElementById( 'returned_results_div' ).innerHTML = "Top class:\n" + JSON.stringify( result.top_class, null, 3 ) + "\n\n" + "Result details:\n" + JSON.stringify( result.results, null, 3 );
+                                document.getElementById( 'returned_results_div' ).style.display = 'block';
+                                document.getElementById( result.top_class.class + '_anthem' ).play();
+                            }
+            } );
+} );
+</script>
+
+</body>
+
+</html>
+

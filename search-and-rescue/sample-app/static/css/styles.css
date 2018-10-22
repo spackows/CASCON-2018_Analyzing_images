@@ -1,0 +1,97 @@
+body
+{
+margin: 0px;
+padding: 20px;
+font-family: Helvetica, Arial, sans-serif;
+background: none;
+}
+
+.video_div, .results_div
+{
+margin: 20px 20px 20px 0px;
+padding: 20px;
+border: 1px solid black;
+box-shadow: 5px 5px 4px grey;
+display: inline-block;
+vertical-align: top;
+width: 340px;
+height: 400px;
+}
+
+p
+{
+margin: 10px 0px 0px 0px;
+padding: 0px;
+}
+
+button
+{
+margin: 10px 0px 10px 0px;
+padding: 3px 10px 3px 10px;
+cursor: pointer;
+background: white;
+border: 1px solid black;
+color: black;
+font-size: 100%;
+}
+
+button:hover
+{
+background: #f5f5f0;
+}
+
+button:active 
+{
+transform: translateY(2px);
+}
+
+#closeup_result
+{
+margin: 0px 0px 20px 0px;
+padding: 0px;
+height: 80px;
+width: 80px;
+border: 1px solid #ccccb3;
+background: #f5f5f0;
+}
+
+#closeup_img
+{
+margin: 0px;
+padding: 0px;
+height: 80px;
+width: 80px;
+display: none;
+}
+
+#results_json_div
+{
+height: 170px;
+background: #f5f5f0;
+border: 1px solid #ccccb3;
+overflow-y: scroll;
+font-family: "Lucida Console", Monaco, monospace;
+font-size: 90%;
+padding: 10px;
+}
+
+.spinner
+{
+border: 10px solid #ddddbb;
+border-top: 10px solid #3d5c5c;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+animation: spin 2s linear infinite;
+}
+
+#closeup_spinner
+{
+margin: 10px;
+}
+
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+

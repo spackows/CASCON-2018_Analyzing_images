@@ -57,3 +57,9 @@ bx target --cf
 ```
 bx app push
 ```
+
+
+### Citations
+File:Star Spangled Banner instrumental.ogg. (2018, July 9). Wikimedia Commons, the free media repository.  https://commons.wikimedia.org/w/index.php?title=File:Star_Spangled_Banner_instrumental.ogg&oldid=310263642.
+
+File:United States Navy Band - O Canada.ogg. (2018, July 24). Wikimedia Commons, the free media repository. https://commons.wikimedia.org/w/index.php?title=File:United_States_Navy_Band_-_O_Canada.ogg&oldid=312247270. 

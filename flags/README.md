@@ -39,7 +39,6 @@
 
 
 #### Images from CountryFlags.com
-NEED PERMISSION to make these available for download
 - canada-flag-medium.jpg (https://www.countryflags.com/en/canada-flag-image.html)
 - canada-flag-wave-medium.jpg (https://www.countryflags.com/en/canada-flag-image.html)
 - canada-flag-waving-medium.jpg (https://www.countryflags.com/en/canada-flag-image.html)

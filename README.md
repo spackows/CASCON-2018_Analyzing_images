@@ -28,7 +28,12 @@ You will be using your own laptop for this workshop.
 \<your drive\>:/CASCON-2018_Analyzing_images/water-consumption/training-data/\*.zip
 </pre>
 
-Here is a video demonstrating these steps:<br/>
+5.  [Optional]
+    - If you want to run the sample Python Flask app on your local computer, [install Python](https://www.python.org/downloads/)
+    - If you want to push the sample Python app to IBM Cloud as a web app, [install the IBM Cloud CLI](https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html#install_use)
+
+
+Here is a video demonstrating steps 1-4:<br/>
 https://youtu.be/rBD5MjqznNY
 
 If you have any trouble performing these steps, feel free to email us:

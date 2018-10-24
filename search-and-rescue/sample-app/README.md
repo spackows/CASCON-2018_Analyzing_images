@@ -23,10 +23,15 @@
 
 ## 1. Run the app locally
 
-1.1 Install the dependencies listed in the requirements.txt file to be able to run the app locally:
-```
+1.1 Install the dependencies:
+<pre>
 pip install -r requirements.txt
-```
+</pre>
+    
+Mac users, run this command instead:
+<pre>
+pip install --user -r requirements.txt
+</pre>
 
 NOTE: Using the opencv libraries takes up more memory than the free, Lite IBM Cloud account supports.  So although the opencv pieces have been included for reference, they have been commented out to enable the app to be deployed on a Lite IBM Cloud account.  For your interest, you could run the app with the opencv pieces locally by using requirements_local.txt and uncommenting out the openvc pieces in server.py.
 

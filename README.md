@@ -3,7 +3,7 @@ This repo contains material for a workshop at CASCON, on Monday, October 29, 201
 [**Building AI models with IBM Watson Studio**](https://www-01.ibm.com/ibm/cas/cascon/workshop.jsp)
 
 
-# Instructions to participants
+# Participant instructions
 
 You will be using your own laptop for this workshop.
 
@@ -29,9 +29,8 @@ You will be using your own laptop for this workshop.
 <your drive>:\CASCON-2018_Analyzing_images\water-consumption\training-data
 ```
 
-Here is a video demonstrating these steps:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rBD5MjqznNY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<p>&nbsp;</p>
+Here is a video demonstrating these steps:<br/>
+https://youtu.be/rBD5MjqznNY
 
 If you have any performing these steps, feel free to email us:
 
@@ -41,3 +40,5 @@ spackows@ca.ibm.com
 Wendy Switzer<br/>
 wswitzer@ca.ibm.com
 
+
+Note: Full workshop instructions will be available on Monday.

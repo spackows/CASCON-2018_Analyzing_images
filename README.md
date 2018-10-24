@@ -32,6 +32,12 @@ You will be using your own laptop for this workshop.
 
 5.  [Optional]
     - If you want to run the sample Python apps on your local computer, [install Python](https://www.python.org/downloads/)
+    
+        Mac users, also install `pip` by issuing this command:
+        ```
+        sudo easy_install pip
+        ```
+        
     - If you want to push the sample Python apps to IBM Cloud as web apps, [install the IBM Cloud CLI](https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html#install_use)
 
 

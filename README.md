@@ -1,7 +1,7 @@
 This repo contains material for a workshop at CASCON, on Monday, October 29, 2018:
 
 [**Building AI models with IBM Watson Studio**](https://www-01.ibm.com/ibm/cas/cascon/workshop.jsp)
-
+<p>&nbsp;</p>
 
 # Participant instructions
 

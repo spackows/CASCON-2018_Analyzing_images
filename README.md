@@ -21,18 +21,17 @@ You will be using your own laptop for this workshop.
  
 4. Add the downloaded data to your project:
     1. From the Assets tab, select New data asset
-    2. Drop or browse for the downloaded files in the right hand panel. The files you need are:
-```
-<your drive>:\CASCON-2018_Analyzing_images\cat-translator\training-data
-<your drive>:\CASCON-2018_Analyzing_images\flags\training-data
-<your drive>:\CASCON-2018_Analyzing_images\search-and-rescue\training-data
-<your drive>:\CASCON-2018_Analyzing_images\water-consumption\training-data
-```
+    2. Drop or browse for the downloaded files in the right hand panel. The files you need are:<br/><pre>
+\<your drive\>:/CASCON-2018_Analyzing_images/cat-translator/training-data/\*.zip
+\<your drive\>:/CASCON-2018_Analyzing_images/flags/training-data/\*.zip
+\<your drive\>:/CASCON-2018_Analyzing_images/search-and-rescue/training-data/\*.zip
+\<your drive\>:/CASCON-2018_Analyzing_images/water-consumption/training-data/\*.zip
+</pre>
 
 Here is a video demonstrating these steps:<br/>
 https://youtu.be/rBD5MjqznNY
 
-If you have any performing these steps, feel free to email us:
+If you have any trouble performing these steps, feel free to email us:
 
 Sarah Packowski<br/>
 spackows@ca.ibm.com

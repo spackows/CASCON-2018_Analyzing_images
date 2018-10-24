@@ -1,6 +1,23 @@
 ## Prerequisite
 
 - Install Python: https://www.python.org/downloads/
+
+    - Make sure to have the installer add Python to your environment variables
+    - Mac users, also install pip by issuing this command:
+        ```
+        sudo easy_install pip
+        ```
+    - Mac users, also add your user base binary directory to your path:
+    
+        1.  Find the user base binary directory by running this command:
+            ```
+            python -m site --user-base
+            ```
+        2.  Add your user base binary directory to the file `/etc/paths`
+        
+        See: [Complete instructions](https://www.architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion/)
+
+
 - Install IBM Cloud CLI: https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html#install_use
 
 

@@ -12,6 +12,8 @@ You will be using your own laptop for this workshop.
 1. Download data:
     1. Go to https://github.com/spackows/CASCON-2018_Analyzing_images
     2. Click Clone or download
+
+    **Tip:** Download to somewhere with a short, easy path.  You will be navigating to this location several times.
  
 2. Set up Watson Studio on IBM Cloud: https://dataplatform.cloud.ibm.com/registration/stepone.
  

@@ -32,8 +32,8 @@ You will be using your own laptop for this workshop.
 
 5.  [Optional]
     - If you want to run the sample Python apps on your local computer, [install Python](https://www.python.org/downloads/)
-    
-        Mac users, also install `pip` by issuing this command:
+        - Make sure to have the installer add Python to your environments variables
+        - Mac users, also install `pip` by issuing this command:
         ```
         sudo easy_install pip
         ```

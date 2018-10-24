@@ -40,5 +40,7 @@ spackows@ca.ibm.com
 Wendy Switzer<br/>
 wswitzer@ca.ibm.com
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
-Note: Full workshop instructions will be available on Monday.
+**Note:** Full workshop instructions will be available on Monday.

@@ -29,8 +29,8 @@ You will be using your own laptop for this workshop.
 </pre>
 
 5.  [Optional]
-    - If you want to run the sample Python Flask app on your local computer, [install Python](https://www.python.org/downloads/)
-    - If you want to push the sample Python app to IBM Cloud as a web app, [install the IBM Cloud CLI](https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html#install_use)
+    - If you want to run the sample Python apps on your local computer, [install Python](https://www.python.org/downloads/)
+    - If you want to push the sample Python apps to IBM Cloud as web apps, [install the IBM Cloud CLI](https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html#install_use)
 
 
 Here is a video demonstrating steps 1-4:<br/>

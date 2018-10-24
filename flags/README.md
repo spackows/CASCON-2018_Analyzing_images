@@ -38,7 +38,7 @@
 - https://pixabay.com/en/international-flag-liberia-2694616/
 
 
-#### Images from CountryFlags.com
+#### Images from Country Flags (https://www.countryflags.com/en/), part of roll-up (https://www.roll-up.com/en/)
 - canada-flag-medium.jpg (https://www.countryflags.com/en/canada-flag-image.html)
 - canada-flag-wave-medium.jpg (https://www.countryflags.com/en/canada-flag-image.html)
 - canada-flag-waving-medium.jpg (https://www.countryflags.com/en/canada-flag-image.html)

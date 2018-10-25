@@ -23,7 +23,9 @@
 
 ## 1. Run the app locally
 
-1.1 Install the dependencies:
+1.1 On your local computer, open a command prompt, and cd into the `flags/sample-app` directory of the GitHub files you downloaded.
+
+1.2 Install the dependencies:
 <pre>
 pip install -r requirements.txt
 </pre>
@@ -33,9 +35,9 @@ Mac users, run this command instead:
 pip install --user -r requirements.txt
 </pre>
 
-1.2 Update server.py with your Visual Recognition apikey and model id
+1.3 Update server.py with your Visual Recognition apikey and model id
 
-1.3 Run the app:
+1.4 Run the app:
 ```
 python server.py
 ```

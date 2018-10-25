@@ -23,7 +23,9 @@
 
 ## 1. Run the app locally
 
-1.1 Install the dependencies:
+1.1 On your local computer, open a command prompt, and cd into the `search-and-rescue/sample-app` directory of the GitHub files you downloaded.
+
+1.2 Install the dependencies:
 <pre>
 pip install -r requirements.txt
 </pre>
@@ -35,14 +37,14 @@ pip install --user -r requirements.txt
 
 NOTE: Using the opencv libraries takes up more memory than the free, Lite IBM Cloud account supports.  So although the opencv pieces have been included for reference, they have been commented out to enable the app to be deployed on a Lite IBM Cloud account.  For your interest, you could run the app with the opencv pieces locally by using requirements_local.txt and uncommenting out the openvc pieces in server.py.
 
-1.2 Update server.py with your Visual Recognition apikey and model id
+1.3 Update server.py with your Visual Recognition apikey and model id
 
-1.3 Run the app:
+1.4 Run the app:
 ```
 python server.py
 ```
 
-1.4 View your app at: http://localhost:8000
+1.5 View your app at: http://localhost:8000
 
 
 

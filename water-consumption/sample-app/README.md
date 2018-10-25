@@ -23,7 +23,7 @@
 
 ## 1. Run the app locally
 
-1.1 On your local computer, open a command prompt, and cd into the `flags/sample-app` directory of the GitHub files you downloaded.
+1.1 On your local computer, open a command prompt, and cd into the `water-consumption/sample-app` directory of the GitHub files you downloaded.
 
 1.2 Install the dependencies:
 <pre>

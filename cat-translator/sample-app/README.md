@@ -13,7 +13,7 @@
             ```
             python -m site --user-base
             ```
-        2.  Add your user base binary directory to the file `/etc/paths`
+        2.  Add your user base binary directory, with `/bin` appended, to the file `/etc/paths`
         
         See: [Complete instructions](https://www.architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion/)
 

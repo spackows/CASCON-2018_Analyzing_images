@@ -42,7 +42,7 @@ pip install --user -r requirements.txt
 python server.py
 ```
 
-1.4 View your app at: http://localhost:8000
+1.5 View your app at: http://localhost:8000
 
 
 

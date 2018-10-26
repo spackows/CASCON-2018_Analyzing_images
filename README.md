@@ -15,7 +15,11 @@ You will be using your own laptop for this workshop.
 
     **Tip:** Download to somewhere with a short, easy path.  You will be navigating to this location several times.
  
-2. Set up Watson Studio on IBM Cloud: https://dataplatform.cloud.ibm.com/registration/stepone.
+2. Set up Watson Studio on IBM Cloud: https://dataplatform.cloud.ibm.com/registration/stepone
+
+    **Tip:** This set-up link does three things: create an IBM id, register for IBM Cloud, and create an instance of Watson Studio in your IBM Cloud account.  If you have trouble with this set-up link, try breaking the steps down with these links:
+    1. Create an IBM id and register for IBM Cloud: [https://console.bluemix.net/registration/](https://console.bluemix.net/registration/)
+    2. Then log in to IBM Cloud and create an instance of Watson Studio from the IBM Cloud catalog: [https://console.bluemix.net/catalog/services/watson-studio](https://console.bluemix.net/catalog/services/watson-studio)
  
 3. Create a project in Watson Studio:
     1. Got to https://dataplatform.cloud.ibm.com/ and Log In if you are not already logged in.

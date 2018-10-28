@@ -1,14 +1,14 @@
 # How to train the water-consumption model
 
 ## Training files
-- sf-belloday.zip
-- sf-bellonight.zip
-- sf-donkeyday.zip
-- sf-donkeynight.zip
-- sf-ponyday.zip
-- sf-ponynight.zip
-- sf-shortyday.zip
-- sf-shortynight.zip
+- `sf-belloday.zip`
+- `sf-bellonight.zip`
+- `sf-donkeyday.zip`
+- `sf-donkeynight.zip`
+- `sf-ponyday.zip`
+- `sf-ponynight.zip`
+- `sf-shortyday.zip`
+- `sf-shortynight.zip`
 
 
 ## Class names

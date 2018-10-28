@@ -9,9 +9,8 @@ The sample notebooks and apps expect the classes to be named the same as the tra
 - Canada
 - USA
 
-<img src='../images-of-tools/train-flags-models.png' width='90%'/>
+<img src='../images-of-tools/train-flags-model.png' width='90%'/>
 
-<p>&nsp;</p>
 
 
 ### Image credits and citations

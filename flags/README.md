@@ -1,8 +1,8 @@
 # How to train the Flags model
 
 ## Training files
-- flags-Canada.zip
-- flags-USA.zip
+- `flags-Canada.zip`
+- `flags-USA.zip`
 
 ## Class names
 The sample notebooks and apps expect the classes to be named the same as the training files, but without the `'flags-'` prefix and without the `.zip` extension:

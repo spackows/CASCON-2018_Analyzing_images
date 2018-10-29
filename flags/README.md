@@ -1,4 +1,4 @@
-# How to train the Flags model
+# How to train the flags model
 
 ## Training files
 - `flags-Canada.zip`
@@ -11,6 +11,11 @@ The sample notebooks and apps expect the classes to be named the same as the tra
 
 <img src='../images-of-tools/train-flags-model.png' width='90%'/>
 
+
+# Demo of flags sample app
+**Note:** If you intend to build the sample app and run it for yourself, vewing the demo ruins the surprise!  But if you do not intend to build the app yourself, and are just curious about what it's like.. enjoy:
+
+[https://cascon-2018-workshop-demo-flags.mybluemix.net/](https://cascon-2018-workshop-demo-flags.mybluemix.net/)
 
 
 ### Image credits and citations

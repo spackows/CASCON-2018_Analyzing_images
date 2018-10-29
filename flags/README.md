@@ -11,14 +11,16 @@ The sample notebooks and apps expect the classes to be named the same as the tra
 
 <img src='../images-of-tools/train-flags-model.png' width='90%'/>
 
+<p>&nbsp;</p>
 
 # Demo of flags sample app
 **Note:** If you intend to build the sample app and run it for yourself, vewing the demo ruins the surprise!  But if you do not intend to build the app yourself, and are just curious about what it's like.. enjoy:
 
 [https://cascon-2018-workshop-demo-flags.mybluemix.net/](https://cascon-2018-workshop-demo-flags.mybluemix.net/)
 
+<p>&nbsp;</p>
 
-### Image credits and citations
+# Image credits and citations
 
 #### Images from Unsplash (https://unsplash.com/license)
 - Photo by Joshua Hoehne (https://unsplash.com/photos/pSSYVe4rcs0)

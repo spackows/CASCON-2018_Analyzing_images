@@ -3,8 +3,15 @@ This repo contains material for a workshop at CASCON, on Monday, October 29, 201
 [**Building AI models with IBM Watson Studio**](https://www-01.ibm.com/ibm/cas/cascon/workshop.jsp)
 <p>&nbsp;</p>
 
-# Participant instructions
+# Presentation slides
+In the workshop we'll be working through these slides:<br/>
+https://github.com/spackows/CASCON-2018_Analyzing_images/blob/master/CASCON-2018_Building-AI_Models-w-Watson-Studio.pdf
 
+<img src='images-of-tools/slides.png' width='90%'/>
+
+<p>&nbsp;</p>
+
+# Prerequisite instructions
 You will be using your own laptop for this workshop.
 
 **Complete the following steps using your laptop before Monday:**

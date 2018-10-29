@@ -12,10 +12,13 @@ https://github.com/spackows/CASCON-2018_Analyzing_images/blob/master/CASCON-2018
 <p>&nbsp;</p>
 
 # Prerequisite instructions
+
+*From noon - 1pm and from 2pm - 3pm on Monday afternoon, Wendy and Sarah will be available to help anyone who hasn't completed the prerequisite set up.  We'll be sitting near where the Expo is.. We'll be the ones sitting with the drone.*
+
 You will be using your own laptop for this workshop.
 
 **Complete the following steps using your laptop before Monday:**
- 
+
 1. Download data:
     1. Go to https://github.com/spackows/CASCON-2018_Analyzing_images
     2. Click Clone or download

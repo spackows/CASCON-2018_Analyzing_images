@@ -14,9 +14,8 @@ The sample notebooks and apps expect the classes to be named the same as the tra
 <p>&nbsp;</p>
 
 # Demo of flags sample app
-**Note:** If you intend to build the sample app and run it for yourself, vewing the demo ruins the surprise!  But if you do not intend to build the app yourself, and are just curious about what it's like.. enjoy:
 
-[https://cascon-2018-workshop-demo-flags.mybluemix.net/](https://cascon-2018-workshop-demo-flags.mybluemix.net/)
+<a href="https://youtu.be/OpXfZ4Cx02I"><img src="https://github.com/IBMDataScience/Watson-Studio-Examples/blob/master/Play-national-anthem-flags/instructions/thumbnail-flags-demo-video.png" width="50%"/></a>
 
 <p>&nbsp;</p>
 

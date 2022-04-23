@@ -1,3 +1,8 @@
+*April, 2022: The cat translator project was part of a [2018 CASCON workshop](https://github.com/spackows/CASCON-2018_Analyzing_images).  Since then, the Watson Visual Recognition tool that was used in the workshop has been discontinued.  So the model-training notebook on this README page has been updated to use Tensorflow instead.*
+
+<p>&nbsp;</p>
+
+
 # How to train the cat-translator model
 This Python notebook demonstrates using Tensorflow to build and train a model that classifies images, called spectrograms, of cat vocalization:
 
@@ -19,7 +24,7 @@ This Python notebook demonstrates how to generate spectrograms from sample recor
 
 
 # Demo of cat-translator sample app
-**Note:** If you intend to build the sample app and run it for yourself, vewing the demo ruins the surprise!  But if you do not intend to build the app yourself, and are just curious about what it's like.. enjoy:
+The [cat-translator web app](https://github.com/spackows/CASCON-2018_Analyzing_images/tree/master/cat-translator/sample-app) puts the image classification model to work.  Watch this demo of the app in action:
 
 [Demo: Cat translator sample app](https://youtu.be/6CEGDoT831A)
 

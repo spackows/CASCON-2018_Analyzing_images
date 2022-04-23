@@ -1,7 +1,7 @@
 # How to train the cat-translator model
 This Python notebook demonstrates using Tensorflow to build and train a model that classifies images, called spectrograms, of cat vocalization:
 
-[Notebook: Classifying cat vocalization spectrograms]()
+[Notebook: Classifying cat vocalization spectrograms](https://github.com/spackows/CASCON-2018_Analyzing_images/blob/master/cat-translator/sample-notebooks/cat-translator-classify-spectrograms.ipynb)
 
 <img src='../images-of-tools/tensorflow-notebook.png' width='60%'/>
 

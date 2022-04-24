@@ -1,4 +1,4 @@
-*April, 2022: The cat translator project was part of a [2018 CASCON workshop](https://github.com/spackows/CASCON-2018_Analyzing_images).  Since then, the Watson Visual Recognition tool that was used in the workshop has been discontinued.  So the model-training notebook on this README page has been updated to use Tensorflow instead.*
+*April, 2022: The cat translator project was part of a [2018 CASCON workshop](https://github.com/spackows/CASCON-2018_Analyzing_images).  Since then, the Watson Visual Recognition tool that was used in the workshop has been discontinued.  So the model-training notebook and web app have been updated to use Tensorflow instead.*
 
 <p>&nbsp;</p>
 

@@ -23,7 +23,7 @@ This Python notebook demonstrates how to generate spectrograms from sample recor
 <p>&nbsp;</p>
 
 
-# Demo of cat-translator sample app
+# Sample cat-translator web app
 The [cat-translator web app](https://github.com/spackows/CASCON-2018_Analyzing_images/tree/master/cat-translator/sample-app) puts the image classification model to work.  Watch this demo of the app in action:
 
 [Demo: Cat translator sample app](https://youtu.be/tZUp4MvJpdI)

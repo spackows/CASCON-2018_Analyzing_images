@@ -16,7 +16,7 @@ This Python notebook demonstrates using Tensorflow to build and train a model th
 # How to create spectrograms
 This Python notebook demonstrates how to generate spectrograms from sample recordings of a cat meowing:
 
-[Notebook: Creating spectrograms]()
+[Notebook: Creating spectrograms](https://github.com/spackows/CASCON-2018_Analyzing_images/blob/master/cat-translator/sample-notebooks/cat-translator-app-code-notebook.ipynb)
 
 <img src='../images-of-tools/spectrogram.png' width='50%'/>
 
@@ -26,7 +26,7 @@ This Python notebook demonstrates how to generate spectrograms from sample recor
 # Demo of cat-translator sample app
 The [cat-translator web app](https://github.com/spackows/CASCON-2018_Analyzing_images/tree/master/cat-translator/sample-app) puts the image classification model to work.  Watch this demo of the app in action:
 
-[Demo: Cat translator sample app](https://youtu.be/I1TZIWA6pxU)
+[Demo: Cat translator sample app](https://youtu.be/tZUp4MvJpdI)
 
 <img src='../images-of-tools/cat-translator-web-app.png' width='90%' />
 

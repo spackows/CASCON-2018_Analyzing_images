@@ -3,29 +3,24 @@ import os
 
 # <start> Pieces from notebook prototyping..
 #
+import tensorflow as tf
+from tensorflow import keras
+import numpy as np
 
-import json
-from watson_developer_cloud import VisualRecognitionV3
+class_names = [ "feedme", "opendoor" ]
 
-model_id = '' # <-- PASTE YOUR MODEL ID HERE
-apikey   = '' # <-- PASTE YOUR APIKEY HERE
+model = tf.keras.models.load_model( "trained-model" )
 
-def getKey( item ):
-    return item["score"]
-
-def getTopClass( results ):
-    results_classes = results["images"][0]["classifiers"][0]["classes"]
-    sorted_results_classes = sorted( results_classes, key=getKey, reverse=True )
-    return sorted_results_classes[0]
-
-def translateMeow( spec_file_name ):
-    visual_recognition = VisualRecognitionV3( version='2018-03-19', iam_apikey=apikey )
-    with open( spec_file_name, 'rb' ) as image_file:
-        results = visual_recognition.classify( image_file, threshold='0', classifier_ids=model_id ).get_result()
-        print( 'Results:')
-        print( json.dumps( results, indent=3 ) )
-        top_class = getTopClass( results )
-        return { 'top_class' : top_class, 'results' : results }
+def classifySpectrogram( filename ):
+    img = tf.keras.utils.load_img( filename, target_size = ( 224, 224 ) )
+    img_array = tf.keras.utils.img_to_array( img )
+    img_array = tf.expand_dims( img_array, 0 )
+    predictions = model.predict( img_array )
+    score = tf.nn.softmax( predictions[0] )
+    classification = class_names[ np.argmax( score ) ]
+    confidence = str( round( 100 * np.max( score ), 3 ) ) + "%"
+    return { 'top_class' : classification, 'confidence' : confidence }
+    
 
 # <end> Pieces from notebook prototyping..
 #
@@ -49,7 +44,7 @@ def translate():
     print( 'vid_id:          ' + vid_id )
     print( 'video_file_name: ' + video_file_name )
     print( 'spec_file_name:  ' + spec_file_name )
-    return jsonify( translateMeow( spec_file_name ) )
+    return jsonify( classifySpectrogram( spec_file_name ) )
 
 if __name__ == '__main__':
     app.run( host='0.0.0.0', port=port, debug=True)

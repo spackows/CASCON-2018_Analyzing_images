@@ -59,9 +59,9 @@ $( "button" ).click( function()
                   success     : function( result )
                                 {
                                     document.getElementById( 'results_spinner' ).style.display = 'none';
-                                    document.getElementById( 'returned_results_div' ).innerHTML = "Top class:\n" + JSON.stringify( result.top_class, null, 3 ) + "\n\n" + "Result details:\n" + JSON.stringify( result.results, null, 3 );
+                                    document.getElementById( 'returned_results_div' ).innerHTML = "Top class: " + result.top_class + "\n\n" + "Confidence: " + result.confidence + "%";
                                     document.getElementById( 'returned_results_div' ).style.display = 'block';
-                                    document.getElementById( result.top_class.class + '_speech' ).play();
+                                    document.getElementById( result.top_class + '_speech' ).play();
                                 }
                 } );
     }, 2000 );

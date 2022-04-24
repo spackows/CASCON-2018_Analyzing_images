@@ -28,7 +28,7 @@ The [cat-translator web app](https://github.com/spackows/CASCON-2018_Analyzing_i
 
 [Demo: Cat translator sample app](https://youtu.be/tZUp4MvJpdI)
 
-<img src='../images-of-tools/cat-translator-web-app.png' width='90%' />
+<img src='../images-of-tools/cat-translator-webapp.png' width='90%' />
 
 <p>&nbsp;</p>
 
